@@ -33,6 +33,17 @@ public class Execap4program2 {
         p1[1].show();
         p1[0].show();
         
+        CaSa cp1= new CaSa("amarela");
+      
+        cp1.portas.add(p1[0]);
+        cp1.portas.add(p1[1]);
+        cp1.portas.get(0).abre();
+        cp1.portas.get(1).fecha();
+        cp1.adicionarPorta();
+        cp1.portas.get(2).fecha();
+                 cp1.adicionarPorta();
+        cp1.contaportaaberta();
+        
     }
     
 }
